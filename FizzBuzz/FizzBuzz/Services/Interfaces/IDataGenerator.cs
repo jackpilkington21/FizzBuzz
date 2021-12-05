@@ -4,6 +4,6 @@
 
     public interface IDataGenerator
     {
-        IEnumerable<int> CreateDataset(int start, int end, int range);
+        IEnumerable<int> CreateDataset(int start, int end, int increment);
     }
 }
