@@ -1,6 +1,5 @@
 ﻿namespace FizzBuzz.Services
 {
-    using System;
     using System.Collections.Generic;
     using FizzBuzz.Services.Interfaces;
 
@@ -10,9 +9,16 @@
         {
         }
 
-        public IEnumerable<int> CreateDataset(int start, int end, int range)
+        public IEnumerable<int> CreateDataset(int start, int end, int increment)
         {
-            throw new NotImplementedException();
+            List<int> dataset = new List<int>();
+
+            for(int i = start; i <= end; i += increment)
+            {
+                dataset.Add(i);
+            }
+
+            return dataset;
         }
     }
 }
