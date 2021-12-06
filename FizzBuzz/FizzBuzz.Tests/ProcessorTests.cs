@@ -20,7 +20,6 @@
             int testNumber = 6;
             string expectedResult = "Fizz";
 
-
             string actualResult = _processor.ProcessNumber(testNumber);
 
             Assert.AreEqual(expectedResult, actualResult);
@@ -31,7 +30,6 @@
         {
             int testNumber = 20;
             string expectedResult = "Buzz";
-
 
             string actualResult = _processor.ProcessNumber(testNumber);
 
@@ -44,7 +42,6 @@
             int testNumber = 15;
             string expectedResult = "FizzBuzz";
 
-
             string actualResult = _processor.ProcessNumber(testNumber);
 
             Assert.AreEqual(expectedResult, actualResult);
@@ -55,7 +52,6 @@
         {
             int testNumber = 7;
             string expectedResult = "7";
-
 
             string actualResult = _processor.ProcessNumber(testNumber);
 

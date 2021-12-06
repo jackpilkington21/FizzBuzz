@@ -24,7 +24,6 @@
             int testIncrement = 1;
             int expectedResult = 100;
 
-
             IEnumerable<int> testDataset = _dataGenerator.CreateDataset(
                 testStart, testEnd, testIncrement);
             int actualResult = testDataset.Count();
